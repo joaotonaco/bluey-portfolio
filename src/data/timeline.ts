@@ -4,7 +4,7 @@ export default <TimelineItemData[]>[
     title: 'Contributor at Square Cloud',
     duration: '3 months',
     details:
-      "Square Cloud is a host company which I contributed by making a wrapper for their API, a CLI and a VS Code extension to make its users' lives easier..",
+      "Square Cloud is a host company which I contributed by making a wrapper for their API, a CLI and a VS Code extension to make its users' lives easier.",
   },
   {
     year: 'Today',
