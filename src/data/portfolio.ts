@@ -23,6 +23,12 @@ export default <PortfolioItemData[]>[
     stack: ['Commander', 'TypeScript'],
     link: 'https://github.com/squarecloudofc/cli-js',
   },
+  {
+    title: 'My Portfolio (You are here)',
+    imgUrl: '/assets/portfolio.png',
+    stack: ['NextJS', 'TailwindCSS', 'TypeScript'],
+    link: 'https://github.com/bluee-js/bluey-portfolio',
+  },
 ];
 
 export interface PortfolioItemData {
