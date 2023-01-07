@@ -8,7 +8,7 @@ function PortfolioItem({ title, imgUrl, stack, link }: PortfolioItemData) {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="border-2 border-stone-900 dark:border-stone-300 rounded-md overflow-hidden transition-all duration-300 hover:scale-[1.01] hover:shadow-stone-500/70 hover:shadow-[0_0_20px_0] hover:bg-stone-200 dark:hover:bg-stone-800"
+      className="border-2 border-stone-900 dark:border-stone-300 rounded-md overflow-hidden transition-[transform,box-shadow] duration-300 hover:scale-[1.01] hover:shadow-stone-500/70 hover:shadow-[0_0_20px_0] hover:bg-stone-200 dark:hover:bg-stone-800"
     >
       <img
         src={imgUrl}

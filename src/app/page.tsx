@@ -26,7 +26,7 @@ export default function Home() {
           <BsSun size={20} />
         </div>
       </button>
-      <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen transition-colors duration-200">
+      <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen">
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
           <Portfolio />
