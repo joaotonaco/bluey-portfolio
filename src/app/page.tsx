@@ -17,7 +17,7 @@ export default function Home() {
       <button
         type="button"
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-        className="fixed p-1 z-10 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg rounded-md"
+        className="fixed p-2 md:p-1 z-10 right-4 md:right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg rounded-md no-highlight"
       >
         <div className="text-white block dark:hidden">
           <BsMoon size={20} />
@@ -26,7 +26,7 @@ export default function Home() {
           <BsSun size={20} />
         </div>
       </button>
-      <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen">
+      <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen transition-colors duration-200">
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
           <Portfolio />

@@ -11,21 +11,21 @@ function Footer() {
             <Link
               key="twitter"
               href="https://twitter.com/jaootonaco"
-              className="bg-stone-500 dark:bg-stone-700 p-2 text-white dark:text-stone-400 inline-flex items-center space-x-2 rounded-full"
+              className="text-white dark:text-stone-400 inline-flex items-center space-x-2 rounded-full"
             >
               <FaTwitter size={20} />
             </Link>
             <Link
               key="discord"
               href="https://discord.gg/5ZcwxPvqCT"
-              className="bg-stone-500 dark:bg-stone-700 p-2 text-white dark:text-stone-400 inline-flex items-center space-x-2 rounded-full"
+              className="text-white dark:text-stone-400 inline-flex items-center space-x-2 rounded-full"
             >
               <FaDiscord size={20} />
             </Link>
             <Link
               key="github"
               href="https://github.com/bluee-js"
-              className="bg-stone-500 dark:bg-stone-700 p-2 text-white dark:text-stone-400 inline-flex items-center space-x-2 rounded-full"
+              className="text-white dark:text-stone-400 inline-flex items-center space-x-2 rounded-full"
             >
               <FaGithub size={20} />
             </Link>

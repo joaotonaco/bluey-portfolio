@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+body::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+html.dark > body::-webkit-scrollbar-track {
+  background-color: rgb(28 25 23);
+}
+
+html.dark > body::-webkit-scrollbar-thumb {
+  background-color: #ffffff50;
+  min-height: 40px;
+}
+
+html.light > body::-webkit-scrollbar-thumb {
+  background-color: #00000050;
+  min-height: 40px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border: 4px solid transparent;
+  background-clip: padding-box;
+  border-radius: 20px;
+}
+
+.no-highlight {
+  -webkit-tap-highlight-color: transparent;
+}
