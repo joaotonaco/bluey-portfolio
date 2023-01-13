@@ -17,7 +17,7 @@ function Footer() {
             </Link>
             <Link
               key="discord"
-              href="https://discord.gg/5ZcwxPvqCT"
+              href="https://discord.com/users/702529018410303640"
               className="text-white dark:text-stone-400 inline-flex items-center space-x-2 rounded-full"
             >
               <FaDiscord size={20} />
