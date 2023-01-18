@@ -1,5 +1,11 @@
 export default <PortfolioItemData[]>[
   {
+    title: 'AG Solutions',
+    imgUrl: '/assets/agsolutions.png',
+    stack: ['NextJS', 'TailwindCSS', 'TypeScript'],
+    link: 'https://agsolutions.com.br',
+  },
+  {
     title: 'SLCommands',
     imgUrl: '/assets/sl-commands.png',
     stack: ['Discord.JS', 'TypeScript'],

@@ -7,6 +7,7 @@ export default function Head() {
         name="description"
         content="I'm a JavaScript and TypeScript programmer with FrontEnd & BackEnd skills."
       />
+      <meta name="color" content="#5865f2" />
       <link rel="icon" href="/favicon.ico" />
     </>
   );
