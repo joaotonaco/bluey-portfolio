@@ -1,9 +1,9 @@
 export default <PortfolioItemData[]>[
   {
-    title: 'AG Solutions',
-    imgUrl: '/assets/agsolutions.png',
+    title: 'Owlivery',
+    imgUrl: '/assets/owlivery.png',
     stack: ['NextJS', 'TailwindCSS', 'TypeScript'],
-    link: 'https://agsolutions.com.br',
+    link: 'https://owlivery.com',
   },
   {
     title: 'SLCommands',

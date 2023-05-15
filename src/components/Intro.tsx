@@ -6,7 +6,7 @@ function Intro() {
       <h1 className="text-5xl md:text-7xl mb-1 font-bold bg-gradient-to-r from-blurple to-plurple bg-clip-text text-transparent">
         Bluey
       </h1>
-      <p className="text-lg md:text-2xl mb-5 font-semibold tracking-wide text-stone-600">
+      <p className="text-lg md:text-2xl mb-5 font-semibold tracking-wide text-zinc-600">
         Full-Stack Developer
       </p>
       <p className="text-sm md:text-base max-w-xl mb-2 font-normal">

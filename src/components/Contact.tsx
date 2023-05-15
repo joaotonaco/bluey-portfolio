@@ -15,19 +15,19 @@ function Contact() {
             type="text"
             name="name"
             placeholder="Your Name"
-            className="p-2 bg-transparent border-2 rounded-md focus:outline-none focus:border-stone-600"
+            className="p-2 bg-transparent border-2 rounded-md focus:outline-none focus:border-zinc-600"
           />
           <input
             type="email"
             name="email"
             placeholder="Your E-mail"
-            className="my-4 p-2 bg-transparent border-2 rounded-md focus:outline-none focus:border-stone-600"
+            className="my-4 p-2 bg-transparent border-2 rounded-md focus:outline-none focus:border-zinc-600"
           />
           <textarea
             name="message"
             placeholder="Message"
             rows={10}
-            className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none focus:border-stone-600 min-h-[6rem] max-h-56"
+            className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none focus:border-zinc-600 min-h-[6rem] max-h-56"
           />
           <button
             type="submit"

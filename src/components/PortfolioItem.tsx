@@ -8,7 +8,7 @@ function PortfolioItem({ title, imgUrl, stack, link }: PortfolioItemData) {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="border-2 border-stone-900 dark:border-stone-300 rounded-md overflow-hidden transition-[transform,box-shadow] duration-300 hover:scale-[1.01] hover:shadow-stone-500/70 hover:shadow-[0_0_20px_0] hover:bg-stone-200 dark:hover:bg-stone-800"
+      className="border-2 border-zinc-900 dark:border-zinc-300 rounded-md overflow-hidden transition-all duration-300 hover:ring-2 dark:hover:ring-zinc-300 hover:ring-zinc-900 hover:bg-zinc-200 dark:hover:bg-zinc-800/60"
     >
       <img
         src={imgUrl}
@@ -23,7 +23,7 @@ function PortfolioItem({ title, imgUrl, stack, link }: PortfolioItemData) {
           {stack.map((item) => (
             <span
               key={item}
-              className="inline-block px-2 py-1 font-semibold border-2 border-stone-900 dark:border-stone-300 rounded-md"
+              className="inline-block px-2 py-1 font-semibold border-2 border-zinc-900 dark:border-zinc-300 rounded-md"
             >
               {item}
             </span>

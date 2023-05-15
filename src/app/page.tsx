@@ -17,17 +17,17 @@ export default function Home() {
       <button
         type="button"
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-        className="fixed p-2 md:p-1 z-10 right-4 md:right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg rounded-md no-highlight"
+        className="fixed z-10 p-2 text-lg rounded-md md:p-1 right-4 md:right-20 top-4 bg-violet-300 dark:bg-orange-300 no-highlight"
       >
-        <div className="text-white block dark:hidden">
+        <div className="block text-white dark:hidden">
           <BsMoon size={20} />
         </div>
-        <div className="text-stone-900 hidden dark:block">
+        <div className="hidden text-zinc-900 dark:block">
           <BsSun size={20} />
         </div>
       </button>
-      <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen">
-        <div className="max-w-5xl w-11/12 mx-auto">
+      <div className="min-h-screen bg-white dark:bg-zinc-900 text-zinc-900 dark:text-zinc-300">
+        <div className="w-11/12 max-w-5xl mx-auto">
           <Intro />
           <Portfolio />
           <Timeline />
